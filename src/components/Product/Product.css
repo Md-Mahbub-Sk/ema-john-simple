@@ -1,6 +1,6 @@
 .product{
     display: flex;
-    border-bottom: 1px solid lightgray;
+    
     margin-bottom: 5px;
     padding-bottom: 5px;
     margin-right: 5px;
@@ -8,9 +8,7 @@
     margin:0 auto;
 
 }
-.product-information{
-    margin-left: 50px;
-}
+
 .product-name{
     font-weight: 400;
     color:blue;
@@ -18,10 +16,10 @@
     
 }
 .main-button{
-    background:linear-gradient(cyan,white);
+    background:linear-gradient(rgba(238, 255, 0, 0.109),rgba(255, 255, 255, 0.459));
     width:180px;
     height: 50px;
-    border:1px solid cyan;
+    border:1px solid goldenrod;
     border-radius:10px;
     outline:none;
     color:black;
